@@ -5,12 +5,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Employee {
+public class Department {
 	
 	private Integer id;
 	private String name;
-	private String city;
-	
-	private Department department;
-	
+
 }
